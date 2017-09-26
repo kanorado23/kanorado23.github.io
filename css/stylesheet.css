@@ -16,8 +16,6 @@
 h1, h2, h3, h4, h5, h6 {font-family: 'Oswald'; color: white}
 p, label {font-family: 'Oswald'; color: white}
 
-h1, h2.sponsors {color:black}
-.sponsors_content {color: black}
 .text-center {text-align: center}
 .uppercase {text-transform: uppercase}
 

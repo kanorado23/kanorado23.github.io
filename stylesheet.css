@@ -115,7 +115,6 @@ form {max-width: 600px; margin: auto; font-size: 25px; font-weight: normal; text
 .carousel {
   margin-bottom: 4rem;
   positin: relative;
-  background: pink;
 }
 
 .carousel-caption {
@@ -126,7 +125,6 @@ form {max-width: 600px; margin: auto; font-size: 25px; font-weight: normal; text
 
 .carousel-item {
   height: 32rem;
-  background-color: pink;
 }
 .carousel-item > img {
   position: absolute;
@@ -151,9 +149,7 @@ form {max-width: 600px; margin: auto; font-size: 25px; font-weight: normal; text
   height: 400px;
   width: 400px;
 }
-.sponsors  {
-  color: grey;
-}
+
 .card-text {
   color: grey;
 }

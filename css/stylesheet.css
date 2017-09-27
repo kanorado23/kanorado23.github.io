@@ -27,9 +27,10 @@ a:hover {color: whitesmoke}
 
 
 /* ========================= COLORS ========================= */
-.header {background-color: #92B558; }
+.header {background-color: #92B558; font-family: 'Oswald'; color: white; padding: 50px; text-align: center;}
+.header-h1 {text-align: center;}
 .jumbotron {background-color: #92B558;}
-.about { background-color: #bdbdbd; padding-bottom: 100px; text-align: center;}
+.about { background-color: #bdbdbd; padding-bottom: 100px; padding-top: 50px; text-align: center;}
 .start {background-color: #92B558; padding-bottom: 100px; text-align: center;}
 .text-gradient {
   background-image: -moz-gradient( linear, left top, right top, color-stop(0, #FF4365), color-stop(1, #00D9C0) );
@@ -56,6 +57,8 @@ background: linear-gradient(135deg, #ff4365 0%,#00d9c0 100%); /* W3C, IE10+, FF1
 
 
 /* ========================= BUTTONS ========================= */
+.btn-primary {border: 2px solid white;}
+.btn-primary:hover {color: whitesmoke}
 .btn-custom {color: white; border: 2px solid white; }
 .btn-custom:hover {color: whitesmoke}
 
@@ -111,14 +114,16 @@ form {max-width: 600px; margin: auto; font-size: 25px; font-weight: normal; text
 /* ========================= CAROUSEL ========================= */
 .carousel {
   margin-bottom: 4rem;
+  positin: relative;
+  background: pink;
 }
-/* Since positioning the image, we need to help out the caption */
+
 .carousel-caption {
   z-index: 10;
   bottom: 3rem;
 }
 
-/* Declare heights because of positioning of img element */
+
 .carousel-item {
   height: 32rem;
   background-color: pink;
@@ -133,17 +138,78 @@ form {max-width: 600px; margin: auto; font-size: 25px; font-weight: normal; text
 
 /* ========================= SPONSORS PAGE ========================= */
 .sponsors {
-  background: pink;
+  background: grey;
+  color: grey;
+}
+.featurette {
+  padding: 50px;
+  background-color: grey;
+  color: grey;
 }
 
+.featurette-image {
+  height: 400px;
+  width: 400px;
+}
 .sponsors  {
   color: grey;
 }
+.card-text {
+  color: grey;
+}
+
+.card-img-top {
+  height: 200px;
+  width: 75%;
+  display: block;
+  padding: top: 50px;
+  padding: bottom: 50px;
+}
+
+.card-title {
+  margin-bottom: .75rem;
+
+}
+
+
 /* ========================= FOOTER ========================= */
 footer {
     background: grey;
-    color: #fafafa;
+
+    line-height: 60px;
+    height: 60px;
     padding: 25px 0;
     position: absolute;
     width: 100%;
+    color: white;
+}
+
+.card-deck {
+  font-color: black;
+  margin: 50px;
+  padding: 25px;
+
+}
+
+.card-img-top {
+  height: 200px;
+  width: 30%;
+  display: block;
+  padding: top: 50px;
+  padding: bottom: 50px;
+  margin: px;
+}
+
+.card-title {
+  margin-bottom: .75rem;
+
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
 }

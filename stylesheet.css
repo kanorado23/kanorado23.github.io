@@ -13,8 +13,8 @@
 
 
 /* ========================= FONTS ========================= */
-h1, h2, h3, h4, h5, h6 {font-family: 'Oswald'; color: white}
-p, label {font-family: 'Oswald'; color: white}
+/*h1, h2, h3, h4, h5, h6 {font-family: 'Oswald'; color: white}*/
+/*p, label {font-family: 'Oswald'; color: white}*/
 
 .text-center {text-align: center}
 .uppercase {text-transform: uppercase}
@@ -27,11 +27,13 @@ a:hover {color: whitesmoke}
 
 
 /* ========================= COLORS ========================= */
-.header {background-color: #92B558; font-family: 'Oswald'; color: white; padding: 50px; text-align: center;}
+.begin {background-color: #92B558; font-family: 'Oswald'; color: white; padding: 50px; text-align: center;}
 .header-h1 {text-align: center;}
-.jumbotron {background-color: #92B558;}
+.header {background-color: #92B558; font-family: 'Oswald'; color: white; padding: 50px; text-align: center;}
+.jumbotron {background-color: #92B558; padding-left: 25px; }
 .about { background-color: #bdbdbd; padding-bottom: 100px; padding-top: 50px; text-align: center;}
-.start {background-color: #92B558; padding-bottom: 100px; text-align: center;}
+.start {background-color: #92B558; padding-bottom: 100px; text-align: center;font-family: 'Oswald'; color: white;}
+
 .text-gradient {
   background-image: -moz-gradient( linear, left top, right top, color-stop(0, #FF4365), color-stop(1, #00D9C0) );
   background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #FF4365), color-stop(1, #00D9C0) );
@@ -115,6 +117,7 @@ form {max-width: 600px; margin: auto; font-size: 25px; font-weight: normal; text
 .carousel {
   margin-bottom: 4rem;
   positin: relative;
+  background: pink;
 }
 
 .carousel-caption {
@@ -125,6 +128,7 @@ form {max-width: 600px; margin: auto; font-size: 25px; font-weight: normal; text
 
 .carousel-item {
   height: 32rem;
+  background-color: pink;
 }
 .carousel-item > img {
   position: absolute;
@@ -141,15 +145,14 @@ form {max-width: 600px; margin: auto; font-size: 25px; font-weight: normal; text
 }
 .featurette {
   padding: 50px;
-  background-color: grey;
   color: grey;
 }
 
 .featurette-image {
   height: 400px;
   width: 400px;
+  padding-left: 10px;
 }
-
 .card-text {
   color: grey;
 }
@@ -171,10 +174,7 @@ form {max-width: 600px; margin: auto; font-size: 25px; font-weight: normal; text
 /* ========================= FOOTER ========================= */
 footer {
     background: grey;
-
-    line-height: 60px;
-    height: 60px;
-    padding: 25px 0;
+    padding: 20px  100px 20px 100px;
     position: absolute;
     width: 100%;
     color: white;

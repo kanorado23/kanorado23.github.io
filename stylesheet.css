@@ -11,7 +11,6 @@
   padding-top: 20px;
 }
 
-
 /* ========================= FONTS ========================= */
 /*h1, h2, h3, h4, h5, h6 {font-family: 'Oswald'; color: white}*/
 /*p, label {font-family: 'Oswald'; color: white}*/
@@ -22,8 +21,8 @@
 
 /* ========================= LINKS ========================= */
 a, a:hover, .btn, .btn:hover {cursor:pointer; -webkit-transition: all .2s ease; -moz-transition: all .2s ease; -o-transition: all .2s ease; transition: all .2s ease;}
-a {color: #FF4365}
 a:hover {color: whitesmoke}
+a {color: black}
 
 
 /* ========================= COLORS ========================= */
@@ -33,7 +32,9 @@ a:hover {color: whitesmoke}
 .jumbotron {background-color: #92B558; padding-left: 25px; }
 .about { background-color: #bdbdbd; padding-bottom: 100px; padding-top: 50px; text-align: center;}
 .start {background-color: #92B558; padding-bottom: 100px; text-align: center;font-family: 'Oswald'; color: white;}
-
+.last {background-color: #92B558; font-family: 'Oswald'; color: white; padding: 50px;}
+.last-h1 {text-align:left; }
+.last-p{}
 .text-gradient {
   background-image: -moz-gradient( linear, left top, right top, color-stop(0, #FF4365), color-stop(1, #00D9C0) );
   background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #FF4365), color-stop(1, #00D9C0) );
@@ -144,7 +145,7 @@ form {max-width: 600px; margin: auto; font-size: 25px; font-weight: normal; text
   color: grey;
 }
 .featurette {
-  padding: 50px;
+  padding: 0 10px 10px 10px;
   color: grey;
 }
 
@@ -173,12 +174,16 @@ form {max-width: 600px; margin: auto; font-size: 25px; font-weight: normal; text
 
 /* ========================= FOOTER ========================= */
 footer {
-    background: grey;
+    background-color: grey;
     padding: 20px  100px 20px 100px;
     position: absolute;
     width: 100%;
-    color: white;
+    color: black;
+    text-align: center;
 }
+
+.footer-p { color: white;}
+.footer-a {color: black;}
 
 .card-deck {
   font-color: black;
